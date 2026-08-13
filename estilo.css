@@ -6,3 +6,11 @@
     --cor-texto:#CC3A63;
 
 }
+
+
+body{
+    background-color: var(--cor-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
