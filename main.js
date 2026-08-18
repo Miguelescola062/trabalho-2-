@@ -1,3 +1,10 @@
+
+const caixaPrincipal=document.querySelector(caixaPrincipalprincipal")
+
+
+
+
+
 const perguntas = [
     {
         enunciado: "Assim que saiu da escola você encontra um dispositivo tecnológico capaz de criar textos, imagens, músicas e até ajudar a resolver problemas. Você nunca tinha visto algo parecido. Qual o primeiro pensamento?",
