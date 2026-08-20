@@ -90,6 +90,34 @@ if (atual>=perguntas.length) {
     }
     perguntaAtual=perguntas[atual]
     caixaPerguntas.textContent=perguntaAtual.enunciado
+    mostraAltenativas()
 }
+
+
+function mostraAltenativas(){
+for (const alternativa of perguntaAtual.alternativas){
+    const botaoAlternativas= document.createElement("button")
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 mostraPergunta()
