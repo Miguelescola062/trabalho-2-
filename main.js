@@ -82,7 +82,7 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = ""
 
-function mostraPerguntas() {
+function mostraPergunta() {
 
 if (atual>=perguntas.length) {
     mostraResultado()
@@ -91,3 +91,4 @@ if (atual>=perguntas.length) {
     perguntaAtual=perguntas[atual]
     caixaPerguntas.textContent=perguntaAtual
 }
+mostraPergunta()
