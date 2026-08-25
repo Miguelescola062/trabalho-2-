@@ -120,6 +120,9 @@ caixaPerguntas.textContent="Em 2049..."
 textoResultado.textContent= historiaFinal
 caixaAlternativas.textContent="";
 
+}ltado.textContent= historiaFinal
+caixaAlternativas.textContent="";
+
 }
 
 
