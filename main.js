@@ -104,9 +104,33 @@ for (const alternativa of perguntaAtual.alternativas){
 }
 
 
+function respostaSelecionada(opcaoSelecionada){
+const afirmacoes = opcaoSelecionada.afirmacao
+historiaFinal += afirmacoes + " "
+atual++
+mostraPergunta()
+
 
 
 }
+
+
+function mostraResultado(){
+caixaPerguntas.textContent="Em 2049..."
+textoResultado.textContent= historiaFinal
+caixaAlternativas.textContent="";
+
+}
+
+
+
+
+
+
+
+
+}
+
 
 
 
