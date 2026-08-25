@@ -90,6 +90,7 @@ if (atual>=perguntas.length) {
     }
     perguntaAtual=perguntas[atual]
     caixaPerguntas.textContent=perguntaAtual.enunciado
+    caixaAlternativas.textContent="";
     mostraAltenativas()
 }
 
@@ -97,6 +98,8 @@ if (atual>=perguntas.length) {
 function mostraAltenativas(){
 for (const alternativa of perguntaAtual.alternativas){
     const botaoAlternativas= document.createElement("button")
+    botaoAlternativas.textContent= alternativa.texto
+    botaoAlternativas.addEventListener("click",()=> respostaSelecionada(alternativa))
 }
 
 
