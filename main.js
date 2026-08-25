@@ -85,7 +85,7 @@ let historiaFinal = ""
 function mostraPergunta() {
 
 if (atual>=perguntas.length) {
-    mostraResultado()
+     mostraResultado()
     return
     }
     perguntaAtual=perguntas[atual]
