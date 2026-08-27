@@ -93,8 +93,7 @@ if (atual>=perguntas.length) {
     caixaAlternativas.textContent="";
     mostraAltenativas()
 }
-mostraPergunta(){
-} 
+
 
 function mostraAltenativas(){
 for (const alternativa of perguntaAtual.alternativas){
