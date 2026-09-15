@@ -105,7 +105,7 @@ for (const alternativa of perguntaAtual.alternativas){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-const afirmacoes = opcaoSelecionada.afirmacao
+const afirmacoes = aleatorio(opcaoSelecionada.afirmacao)
 historiaFinal += afirmacoes + " "
 atual++
 mostraPergunta()
@@ -125,6 +125,8 @@ caixaAlternativas.textContent="";
 function aleatorio(lista){
 
 const posicao = Math.random()*lista.length
+console.log(posicao)
+
 
 
 
