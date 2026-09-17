@@ -122,17 +122,6 @@ caixaAlternativas.textContent="";
 }
 
 
-function aleatorio(lista){
-
-const posicao = Math.floor(Math.random()*lista.length)
-console.log(posicao)
-return(lista[posicao])
-
-
-
-}
-
-
 
 
 mostraPergunta()
