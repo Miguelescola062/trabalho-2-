@@ -7,7 +7,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas")
 const caixaAlternativas = document.querySelector(".caixa-alternativas")
 const caixaResultado = document.querySelector(".caixa-resultado")
 const textoResultado = document.querySelector(".texto-resultado")
-
+const botaoIniciar=document.querySelector(".iniciar-btn")
 
 
 
@@ -16,6 +16,14 @@ const textoResultado = document.querySelector(".texto-resultado")
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = ""
+botaoiniciar.addEventListener("click",iniciarjogo)
+
+
+
+
+
+
+
 
 function mostraPergunta() {
 
