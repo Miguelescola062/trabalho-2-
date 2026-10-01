@@ -8,7 +8,7 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas")
 const caixaResultado = document.querySelector(".caixa-resultado")
 const textoResultado = document.querySelector(".texto-resultado")
 const botaoIniciar=document.querySelector(".iniciar-btn")
-
+const telaInicial= document.querySelector(".tela-inicial")
 
 
 
@@ -16,7 +16,22 @@ const botaoIniciar=document.querySelector(".iniciar-btn")
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = ""
+
+
+
 botaoiniciar.addEventListener("click",iniciarjogo)
+
+
+
+function iniciarjogo(){
+atual=0;
+historiaFinal = ""
+telaInicial.style.display="none"
+caixaPerguntas.classList.remove("mostrar")
+caixaAlternativas.classList.remove("mostrar")
+caixaResultado.classList.remove("mostrar")
+
+}
 
 
 
