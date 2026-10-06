@@ -19,18 +19,18 @@ let historiaFinal = ""
 
 
 
-botaoiniciar.addEventListener("click",iniciarjogo)
+botaoiniciar.addEventListener("click",iniciajogo)
 
 
 
-function iniciarjogo(){
+function iniciajogo(){
 atual=0;
 historiaFinal = ""
 telaInicial.style.display="none"
 caixaPerguntas.classList.remove("mostrar")
 caixaAlternativas.classList.remove("mostrar")
 caixaResultado.classList.remove("mostrar")
-
+mostraPergunta()
 }
 
 
@@ -82,5 +82,5 @@ caixaAlternativas.textContent="";
 
 
 
-mostraPergunta()
+
 
