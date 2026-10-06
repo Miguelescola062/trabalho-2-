@@ -19,7 +19,7 @@ let historiaFinal = ""
 
 
 
-botaoiniciar.addEventListener("click",iniciajogo)
+botaoIniciar.addEventListener("click",iniciajogo)
 
 
 
